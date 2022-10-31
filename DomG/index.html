@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./assets/green-eye-favicon.png">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Satisfy&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@0,200;0,300;0,400;1,300&family=Satisfy&display=swap');
         </style>
 </head>
 
@@ -30,51 +30,62 @@
 
     <header class="header">
         <img class="header-image" src="./assets/femme-oeil-bambou.jpg" alt="une femme dans une structure de bambou en forme d'oeil contemple un paysage de valée">   
-        <h1 class="header-h1">Thérapie Mouvements Occulaires</h1>
+        <div class="header-text-container">
+            <h1 class="header-h1">Thérapie Mouvements <br> Occulaires</h1>
+            <p class="header-p">Dominique Godard</p>
+        </div>
     </header>
 
     <div class="caligraphy content">
         <img src="./assets/caligraphy.png" alt="élément de caligraphie">
     </div>
 
-    <main class="content flex">
-        <article class="article-container">
-            <div>
-                <h2>une thérapie à Caen</h2>
+    <main class="content flex article-container">
+        <article class="article article-left">
+            <div class="article-text-container">
+                <h2 class="article-title">Thérapie à Caen</h2>
                 <p>L’hypnose fait partie des thérapies brèves et est reconnue pour ses résultats rapides. Cependant il est difficile de répondre précisément à cette question, chaque personne étant unique
                 par son histoire de vie, ses besoins et son fonctionnement. Nous fonctionnons habituellement sur un travail compris entre 3 et 9 séances. L’important est que vous trouviez la progression qui vous convient.</p>
             </div>
-            </article>
-        <div>
-            <img src="./assets/oeil-principal.jpg" alt="">
+        </article>
+        <div class="article-image-container image-container-right">
+            <img class="article-image" src="./assets/oeil-principal.jpg" alt="">
         </div>
     </main>
 
-    <section class="section-container content">
-        <h2>ils en parlent le mieux...</h2>
-        <div>
-            <div class="shift-left"><button>previous</p></button></div>
+    <section class="marks-container content">
+        <h2  class="article-title marks-title">Ils vous en parlent ...</h2>
+        <div class="ranking-container">
+            <div class="shift shift-left"><button>previous</p></button></div>
             <div class="profile">
-
                 <div class="profile-pic"><img src="./assets/patients/SabineSafi.png" alt="photo de profil d'un ancien patient"></div>
-                <div><h3>Patient Témoin</h3></div>
+                <div><p class="user-name">Patient Témoin</h3></div>
                 <div class="ranking"><img class="ranking" src="./assets/patients/Golden-5-Star-Rating.png" alt="cinq étoiles sur cinq témoignent de la satisfaction du patient"></div>
-                <div><p>Thérapeute très compétente, qui sait faire avancer ses patient.e.s à leur rythme. Ce n'est pas de la thérapie superficielle, c'est un vrai engagement de soi - et d'elle, et c'est ce qu'il faut pour changer des comportements et des croyances ...</p></div>
+                <div><p class="user-comment">Thérapeute très compétente, qui sait faire avancer ses patient.e.s à leur rythme. Ce n'est pas de la thérapie superficielle, c'est un vrai engagement de soi - et d'elle, et c'est ce qu'il faut pour changer des comportements et des croyances. (...)</p></div>
             </div>
-            <div class="shift-right"><button>next</button></div>
+            <div class="shift shift-right"><button>next</button></div>
         </div>
     </section>
 
-    <section class="content flex">
-        <article class="article-container">
-            <div>
-                <h2>Mon approche</h2>
+
+    <div class="caligraphy content">
+        <img src="./assets/caligraphy.png" alt="élément de caligraphie">
+    </div>
+
+
+
+    <section class="content flex article-container">
+        <div class="article-image-container">
+            <img class="article-image image-container-left" src="./assets/salon.jpg" alt="une bibliothèque de vieux livres avec des plantes">
+        </div>
+        <article class="article article-right">
+            <div class="article-text-container">
+                <h2 class="article-title">Mon Approche</h2>
                 <p>La séance commence par un échange préliminaire entre le thérapeute et la personne, appelé anamnèse, pour connaitre son contexte de vie passé et actuel, sa
                     problématique et déterminer son objectif. C'est une étape très importante afin de pouvoir s'orienter dans la bonne direction. <br> <br>
                     C'est une étape très importante afin de pouvoir s'orienter dans la bonne direction.</p>
             </div>
-            </article>
-        <img src="./assets/salon.jpg" alt="une bibliothèque de vieux livres avec des plantes">
+        </article>
     </section>
     
 </body>

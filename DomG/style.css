@@ -214,11 +214,6 @@ img {max-width:100%}
     width: 75px;
 }
 
-img.arrow {
-    width: 600px;
-    height: auto;
-}
-
 .profile {
     display: flex;
     flex-direction: column;
